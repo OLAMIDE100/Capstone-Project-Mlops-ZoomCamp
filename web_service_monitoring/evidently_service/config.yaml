@@ -1,0 +1,22 @@
+datasets:
+  taxi:
+    column_mapping:
+      numerical_features:
+        - 'X2 house age'
+        - 'X3 distance to the nearest MRT station'
+        - 'X4 number of convenience stores'
+        - 'X5 latitude'
+        - 'X6 longitude'
+    data_format:
+      header: true
+      separator: ','
+    monitors:
+      - data_drift
+    reference_file: ./datasets/train.csv
+service:
+  calculation_period_sec: 2
+  min_reference_size: 30
+  moving_reference: false
+  datasets_path: datasets
+  use_reference: true
+  window_size: 5

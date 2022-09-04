@@ -1,0 +1,8 @@
+pandas
+Werkzeug~=2.0.1
+prometheus_client~=0.11.0
+pyyaml~=5.4.1
+tqdm
+prefect~=2.0b5
+pymongo
+evidently
