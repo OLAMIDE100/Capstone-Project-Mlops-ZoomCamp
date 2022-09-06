@@ -3,7 +3,7 @@ integration_test:
 
 
 
-build: integration_test
+build:integration_test
 	docker-compose -f web_service_monitoring/docker-compose.yml up -d
 
 train:
@@ -11,3 +11,4 @@ train:
 
 stop:
 	docker-compose -f web_service_monitoring/docker-compose.yml down
+	docker volume prune -f

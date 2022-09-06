@@ -83,3 +83,15 @@ services:
     networks:
       - back-tier
       - front-tier
+  streamlit:
+    build:
+      context: ../streamlit
+      dockerfile: Dockerfile
+    depends_on:
+      - prediction_service
+    ports:
+      - "8501:8501"
+    networks:
+      - front-tier
+      - back-tier
+

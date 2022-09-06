@@ -2,6 +2,7 @@ import os
 
 import pandas as pd
 from dotenv import load_dotenv
+from datetime import timedelta
 
 load_dotenv()
 
@@ -161,9 +162,6 @@ def main(path: str = "../data/train.csv"):
     best_performing_models_production(best_result, train, valid)
 
 
-main()
-
-"""
 DeploymentSpec(
     flow=main,
     name="model_training",
@@ -171,4 +169,4 @@ DeploymentSpec(
     flow_runner=SubprocessFlowRunner(),
     tags=["mide_data_talks"]
 )
-"""
+
