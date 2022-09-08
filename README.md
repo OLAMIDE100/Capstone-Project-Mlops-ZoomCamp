@@ -1,6 +1,6 @@
 # Capstone Project (Mlops-Zoomcamp) - House Price Prediction
 
-![Architecture](./streamlit/images.jpg)
+![Architecture](./streamlit/images/house.jpg)
 
 ## Problem Statement
 
