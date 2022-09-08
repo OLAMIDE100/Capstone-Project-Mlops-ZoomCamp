@@ -80,8 +80,8 @@ More info on the flow can be found [here](./setup/flow.md).
 
 The following is the resulting repo structure:
 
-    .
-|-- Makefile 
+
+|-- Makefile                                                                                              
 |-- README.md
 |-- Test
 |   `-- integration_test
@@ -141,5 +141,5 @@ The following is the resulting repo structure:
     |-- stream_send.py
     `-- test.py
 
-13 directories, 46 files
-.
+   13 directories, 46 files 
+
