@@ -1,6 +1,6 @@
 # Capstone Project (Mlops-Zoomcamp) - House Price Prediction
 
-![Architecture](./streamlit/images/house.jpg)
+![Architecture](./images/house-price-497112-KhCJQICS.jpg)
 
 ## Problem Statement
 
@@ -160,3 +160,15 @@ The following is the resulting repo structure:
    13 directories, 46 files 
 
 ```
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+I am extremely grateful for the time this set of wonderful people put in place to ensure we understood the various aspect of data and analytical engineering
+
+* [Alexey Grigorev](https://www.linkedin.com/in/agrigorev/)
+* [Kevin Kho](https://www.linkedin.com/in/kvnkho/)
+* [Ankush Khanna](https://www.linkedin.com/in/ankushkhanna2/)
+* [Sejal Vaidya](https://www.linkedin.com/in/vaidyasejal/)
+* [Victoria Perez Mola](https://www.linkedin.com/in/victoriaperezmola/)
+
