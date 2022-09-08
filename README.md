@@ -38,18 +38,6 @@ The architecture below  depicts the system design:
 
 ![Architecture](./imgs/project_architecture.png)
 
-The main technologies are the following ones:
-* Cloud: AWS
-* Experiment tracking and model registry: MLFlow
-* Container: Docker + Docker Compose
-* Infrastructure as code (IaC): Terraform
-* Workflow orchestration: Airflow
-* Storage: S3
-* Monitoring: Evidently
-* Web app: Flask + Gunicorn + Streamlit
-* CI/CD: GitHub actions
-* Linter and code formaters: Pylint + Black + isort
-
 Language, frameworks, libraries, Services and Tools used to bootstrap this project.
 
 * ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -67,9 +55,11 @@ Language, frameworks, libraries, Services and Tools used to bootstrap this proje
 * ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
 * ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) : s3 for storage,RDS as database, EC2 as virtual machine
 * <a href='https://mlflow.org/images/MLflow-logo-final-white-TM.png' target="_blank"><img alt='mlflow' src='https://img.shields.io/badge/mlflow-100000?style=for-the-badge&logo=mlflow&logoColor=565EB6&labelColor=493BA9&color=56BFD0'/></a> : Experiment tracking and model registry
-* Prefect : Workflow orchestration
-* Streamlit : open source app framework in Python language
-* Evidently : Monitoring
+* <a href='https://cdn.worldvectorlogo.com/logos/prefect-1.svg' target="_blank"><img alt='' src='https://img.shields.io/badge/Prefect-100000?style=for-the-badge&logo=&logoColor=white&labelColor=3427C7&color=4C67E4'/></a>: Workflow orchestration
+* <a href='https://cdn.worldvectorlogo.com/logos/prefect-1.svg' target="_blank"><img alt='streamlit' src='https://img.shields.io/badge/STREAMLIT-100000?style=for-the-badge&logo=streamlit&logoColor=DD0000&labelColor=F7F7F7&color=9FABE0'/></a> : open source app framework in Python language
+* <a href='' target="_blank"><img alt='' src='https://img.shields.io/badge/Evidently_AI-100000?style=for-the-badge&logo=&logoColor=DD0000&labelColor=F06060&color=CA5B61'/></a> : Monitoring
+* <a href='' target="_blank"><img alt='GRAFANA' src='https://img.shields.io/badge/GRAFANA-100000?style=for-the-badge&logo=GRAFANA&logoColor=DD0000&labelColor=F7F7F7&color=9FABE0'/></a>
+* <a href='' target="_blank"><img alt='prometheus' src='https://img.shields.io/badge/prometheus-100000?style=for-the-badge&logo=prometheus&logoColor=D72222&labelColor=FFF2F2&color=CA5B61'/></a>
 * Pylint + Black + isort : Linter and code formaters
 
 
