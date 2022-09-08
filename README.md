@@ -36,7 +36,7 @@ The Following data dictionary gives more details on this data set:
 
 The architecture below  depicts the system design:
 
-![Architecture](./imgs/project_architecture.png)
+![Architecture](./images/project_design.png)
 
 Language, frameworks, libraries, Services and Tools used to bootstrap this project.
 
