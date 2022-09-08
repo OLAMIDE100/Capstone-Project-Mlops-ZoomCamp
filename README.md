@@ -73,24 +73,7 @@ Whenever the ratio of variables drifting passes a pre-defined threshold, it trig
 More info on the flow can be found [here](./setup/flow.md).
 
 
-## Setup
 
-This project has as main pre-requisites:
-* AWS account
-* Terraform
-* Docker and Docker Compose
-
-For more info on how to setup this architecture and run the code please check the following documentation:
-
-1. [setup_aws_mlflow.md](./setup/setup_aws_mlflow.md)
-2. [setup_kaggle.md](./setup/setup_kaggle.md)
-3. [setup_terraform.md](./setup/setup_terraform.md)
-4. [setup_env.md](./setup/setup_env.md)
-
-You can run the project using:
-```
-make build
-```
 
 
 ## Project Tree Structure
@@ -98,7 +81,7 @@ make build
 The following is the resulting repo structure:
 
     .
-|-- Makefile
+|-- Makefile 
 |-- README.md
 |-- Test
 |   `-- integration_test
