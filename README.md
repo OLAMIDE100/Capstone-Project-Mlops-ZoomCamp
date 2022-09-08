@@ -67,6 +67,7 @@ Language, frameworks, libraries, Services and Tools used to bootstrap this proje
 * ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
 * ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) : s3 for storage,RDS as database, EC2 as virtual machine
 * MLFlow : Experiment tracking and model registry
+* <a href='https://mlflow.org/images/MLflow-logo-final-white-TM.png' target="_blank"><img alt='mlflow' src='https://img.shields.io/badge/mlflow-100000?style=for-the-badge&logo=mlflow&logoColor=565EB6&labelColor=493BA9&color=56BFD0'/></a>
 * Prefect : Workflow orchestration
 * Streamlit : open source app framework in Python language
 * Evidently : Monitoring
