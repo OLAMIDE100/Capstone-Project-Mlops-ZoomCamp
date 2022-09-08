@@ -62,16 +62,32 @@ Language, frameworks, libraries, Services and Tools used to bootstrap this proje
 
 ## Flow
 
-Airflow orchestrates the download of the dataset from Kaggle, the modeling and deployment of the initial model, by using MLFlow for experiment tracking and model registry. The model is set to production stage. 
-XGBoost is used for creating the model.
-Some other tasks run in the background to guarantee that the entire service will run smoothly when started.
+- [x] Training , orchestration, Tracking, Model Registry & Deployment
+```bash
+make train
+```
+![experiement](./images/MLFLOW_EXPER.PNG)
+![model](./images/mlflow_model.PNG)
+![train](./images/train.PNG)
+![](./images/deploy.PNG)
 
-When the service boots, it obtains the model staged in production from MLFlow, starts the Flask app and Gunicorn for serving web requests, starts Evidently for monitoring the data input by the user, and starts Streamlit for the frontend, where the user can predict values for vehicles. 
+- [x] Prediction service setup , Monitoring service setup, Integratin Test, Streamlit provisioning
+```bash
+make build
+```
+![experiement](./images/docker.PNG)
 
-Whenever the ratio of variables drifting passes a pre-defined threshold, it triggers alerts to the user. Meanwhile, drift reports can be observed using Grafana.
+- [x] Batch Prediction
+```bash
+python stream_send.py
+```
+![experiement](./images/drift.PNG)
 
-More info on the flow can be found [here](./setup/flow.md).
-
+- [x] Prediction
+```bash
+[http:](http://localhost:8501)
+```
+![experiement](./images/web_page_STREAMLIT.PNG)
 
 
 
@@ -80,7 +96,7 @@ More info on the flow can be found [here](./setup/flow.md).
 
 The following is the resulting repo structure:
 
-
+```bash 
 |-- Makefile                                                                                              
 |-- README.md
 |-- Test
@@ -143,3 +159,4 @@ The following is the resulting repo structure:
 
    13 directories, 46 files 
 
+```
